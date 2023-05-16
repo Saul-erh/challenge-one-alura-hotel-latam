@@ -60,7 +60,9 @@ El Hotel Alura conocido por su espectaculares instalaciones y paquetes promocion
 ## ⭐  Proyecto Version 1.0 ⭐ 
 ### Este proyecto será la primera version del Challenge Hotel Alura, el cual puede presentar errores, bugs, entre otros detalles, por lo cual sientete libre de contactarme para cualquier duda, comentario o aclaración sobre el proyecto.
 
+![HotelAlura](https://github.com/Saul-erh/challenge-one-alura-hotel-latam/assets/120145421/d158d576-ab21-4131-b78e-dca8a8b4adbe)
 
+![hotel2](https://github.com/Saul-erh/challenge-one-alura-hotel-latam/assets/120145421/b9656d01-c59a-4f9c-9dc0-ddce6b6d4f06)
 
 ## ⬇️ Download
 
