@@ -30,15 +30,37 @@
 - setResizable(false): determina el tamaño de la ventana, y a través del parámetro <strong>false</strong>, la pantalla no se puede maximizar;
 - setLocationRelativeTo(null): determina la ubicación de la ventana, y a través del parámetro <strong>null</strong> la mantiene centrada en la pantalla.
 
-#### Para este desafío, concéntrate en la parte lógica y la conexión con la base de datos, después de completar el desafío, siéntete libre de agregar nuevas funciones y modificar la interfaz gráfica.
+#### Para este desafío, nos concéntraremos en la parte lógica y la conexión con la base de datos, después de completar el desafío, será posible agregar nuevas funciones y modificar la interfaz gráfica.
 ---
 
 ## 🔍 ¡Analizando nuestro repositorio!
 
-### Este es el repositorio base de nuestro proyecto, en el encontrarás:
+### Este es el repositorio del proyecto, en el encontrarás:
 #### 🔹 src/views: carpeta con toda la interfaz gráfica de las pantallas necesarias para desarrollar el programa;
-#### 🔹 src/imagenes: carpeta con imágenes que puedes usar en tu proyecto. Siéntete libre de usar otros, si lo deseas;
+#### 🔹 src/imagenes: carpeta con imágenes que puedes usar en el proyecto.;
+#### 🔹 src/hotel.alura.Controller: carpeta con todos los archivos Controller del proyecto siguiendo el modelo con estructura MVC necesarias para desarrollar el programa;
+#### 🔹 src/hotel.alura.dao: carpeta con todos los archivos DAO del proyecto siguiendo el modelo con estructura MVC, en donde son ejecutadas todas las query necesarias para el acceso a la base de datos de MySQL.;
+#### 🔹 src/hotel.alura.modelo: carpeta con todos los archivos Modelo del proyecto siguiendo el modelo con estructura MVC;
+#### 🔹 src/hotel.alura.factory: carpeta con el archivo que nos permite conectarnos con la base de datos en forma de pool Conexions;
 </br>
+
+## 🔨 Requerimientos
+
+El Hotel Alura conocido por su espectaculares instalaciones y paquetes promocionales para Desarrolladores de Software está teniendo problemas para llevar el control de las reservaciones hechas por sus clientes, por eso solicitan nuestra ayuda para desarrollar un sistema de reserva que contenga:
+
+#### 🔹 Sistema de autenticación de usuario para que solo usuarios pertenecientes al hotel consigan acceder al sistema;
+#### 🔹Permitir crear, editar y eliminar una reserva para los clientes;
+#### 🔹Buscar en la base de datos todas las informaciones tanto de los clientes como de las reservas;
+#### 🔹Registrar, editar y eliminar datos de los huéspedes;
+#### 🔹Calcular el valor de la reserva en base a la cantidades de días de la reserva y a una tasa diaria que puede ser asignada por ti y en la moneda local de tu país, por ejemplo si tenemos una reserva de 3 dias y el valor de nuestra diaria son 20$ debemos multiplicar esos 3 dias por el valor de la diaria, lo que serian 60$, todo esto deberá ser hecho automaticamente y mostrado al usuario antes de guardar la reserva;
+#### 🔹Base de datos para almacenar todos los datos pedidos anteriormente.
+
+#### 🔹Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto
+
+## ⭐  Proyecto Version 1.0 ⭐ 
+### Este proyecto será la primera version del Challenge Hotel Alura, el cual puede presentar errores, bugs, entre otros detalles, por lo cual sientete libre de contactarme para cualquier duda, comentario o aclaración sobre el proyecto.
+
+
 
 ## ⬇️ Download
 
@@ -267,26 +289,8 @@ La pestaña de <em>Design</em> se abrirá por encima de la zona del <em>Console<
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173682648-4c371224-fe4b-4e57-a3ee-9298a4d44554.png">
 </p>
 
-## 📬 Entrega
+## 📬 Contactos
 
-### ¿Cómo incluir mi proyecto con el "#" del desafío?
-
-1) Ten el <strong>Fork</strong> del proyecto en tu repositorio en Github.
-2) Utiliza el topico **challengeonehotelaluralatam4** </br>
-3) Ve a la pestaña derecha de tu proyecto y haz clic en el engranaje de configuración en la sección <em>About</em>, selecciona el campo **topics** e inserae la etiqueta **challengeonehotelaluralatam4**
-
-
-### ¿Cómo hago la entrega final de mi Proyecto?
-
-4) Rellena el siguiente formulario con tus datos personales, junto con el enlace de tu repositorio. 🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-esp-back-end)
-
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/91544872/218745016-7d4582b1-0a7a-4501-a2a5-2b57da523635.png">
-</p>
-
-5) Ve a tu correo electrónico y canjea tu insignia obtenida al completar otro desafío del Proyecto ONE! 🏆
-
-6) ¡No olvides poner un enlace o video de tu proyecto en Linkedin! Etiqueta a #Oracle y #AluraLatam 🏁
 
 🧡 <strong>Oracle</strong></br>
 <a href="https://www.linkedin.com/company/oracle/" target="_blank">
